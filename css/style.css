@@ -271,7 +271,7 @@ nav a:hover{
 /* REDES */
 
 .social-links {
-  display: flex;
+  display:flex;
   flex-direction: column;
   gap: 15px;
 }
@@ -337,6 +337,10 @@ footer{
 
 @media (max-width:900px){
 
+  .hero {
+    padding: 50px 0;
+  }
+
 .hero-content{
 flex-direction:column;
 text-align:center;
@@ -345,6 +349,12 @@ gap:40px;
 
 nav ul{
 display:none;
+}
+
+.hero-buttons {
+  align-items: center;
+  display:grid;
+  
 }
 
 }
