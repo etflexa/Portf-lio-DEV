@@ -241,6 +241,10 @@ nav a:hover{
   text-decoration:none;
 }
 
+.project_description {
+  text-align: justify;
+}
+
 
 
 .contato {
